@@ -4,367 +4,509 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Jackson Mulenga | ICT & Digital Support Portfolio</title>
-  <meta name="description" content="Jackson Mulenga – ICT Specialist, District Technical Support Officer (ECZ), Smart Zambia Digital Ambassador, Data & Customs Operations." />
+  <meta name="description" content="Jackson Mulenga – ICT Specialist, ECZ District Technical Support Officer, Smart Zambia Digital Ambassador, Data & Customs Operations." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-<header class="site-header">
-  <nav class="nav">
-    <a class="logo" href="#top" aria-label="Home">JM</a>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-badge">JM</span>
+        <span class="brand-name">Jackson Mulenga</span>
+      </a>
 
-    <div class="links" id="navLinks">
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#certs">Certifications</a>
-      <a href="#contact">Contact</a>
-      <a href="https://www.linkedin.com/in/jackson-mulenga-936442227" target="_blank" rel="noreferrer">LinkedIn</a>
-      <a href="https://github.com/jack1000mu" target="_blank" rel="noreferrer">GitHub</a>
-    </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
-    <button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
-  </nav>
-</header>
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#training">Training</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#certs">Certifications</a>
+        <a class="nav-link" href="#contact">Contact</a>
 
-<main id="top">
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-text">
-      <p class="pill">ICT Support • Data • E-Gov Services • Customs Operations</p>
-
-      <h1>Hi, I’m <span>Jackson Mulenga</span>.</h1>
-
-      <p class="lead">
-        I’m an ICT and Digital Support professional with over 3 years of experience across public service,
-        customs/border operations, and field research. I currently support ECZ operations as a District Technical
-        Support Officer, and I’m also a Smart Zambia Digital Ambassador.
-      </p>
-
-      <div class="cta">
-        <a class="btn primary" href="#contact">Contact Me</a>
-        <a class="btn" href="#services">What I Do</a>
-      </div>
-
-      <div class="quick">
-        <span>🧰 ICT Support</span>
-        <span>📊 Data (Excel/SPSS/Kobo/SurveyCTO)</span>
-        <span>🛃 ASYCUDA & Customs</span>
-        <span>🧾 Online & E-Gov Services</span>
-      </div>
-    </div>
-
-    <aside class="card">
-      <h3>Quick Snapshot</h3>
-      <ul>
-        <li><b>Current:</b> District Technical Support Officer (ECZ)</li>
-        <li><b>Also:</b> Smart Zambia Digital Ambassador</li>
-        <li><b>Strengths:</b> Troubleshooting, reporting, field support</li>
-        <li><b>Tools:</b> Excel, SPSS, KoboCollect, SurveyCTO</li>
-        <li><b>Operations:</b> ASYCUDA World, border documentation</li>
-      </ul>
-      <a class="btn small" href="#experience">View Full Experience →</a>
-    </aside>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <h2>About</h2>
-
-    <p>
-      I am a dedicated and adaptable ICT and digital support professional with a Bachelor’s Degree in
-      Information and Communication Technology with Education, and over three years of practical experience
-      supporting technology and operations in Zambia.
-    </p>
-
-    <p>
-      My work combines hands-on ICT support, data systems, and field coordination. At the Electoral Commission
-      of Zambia (ECZ), I support  technical operations through equipment setup and configuration,
-      troubleshooting for field teams, secure backups and data handling, performance monitoring, and technical reporting.
-      I’m comfortable working under pressure and in time-sensitive environments where accuracy and reliability matter.
-    </p>
-
-    <p>
-      Beyond ICT, I have strong exposure to customs and border operations through ConnexAfrica Zambia, where I handled
-      transit documentation processes and ASYCUDA World workflows, supported inspections and acquittals, and coordinated
-      with ZRA officers and stakeholders. I also have field research experience with Innovation for Poverty Action (IPA)
-      and CAPOLSA-UNZA, conducting interviews and supporting data quality using tools like KoboCollect and SurveyCTO.
-    </p>
-
-    <p>
-      As a Smart Zambia Digital Ambassador, I support digital awareness and practical guidance on online services and safer
-      digital use, helping individuals and organizations adopt digital tools more effectively.
-    </p>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="section">
-    <h2>What I Do</h2>
-    <p class="muted">
-      I help individuals, SMEs, and organizations with ICT support, digital services, and online e-government processes.
-    </p>
-
-    <div class="grid">
-      <div class="tile">
-        <h3>E-Government & Online Services</h3>
-        <ul>
-          <li>PACRA Business Name Clearance</li>
-          <li>PACRA Business Registration / Company Registration support</li>
-          <li>ZRA TPIN Registration</li>
-          <li>ZRA Returns support</li>
-          <li>NAPSA Account Opening (Individual & Company)</li>
-          <li>NAPSA Returns support</li>
-          <li>NHIMA Account Opening / Registration support</li>
-          <li>ZPPA registration support</li>
-          <li>NCC online services support</li>
-          <li>Other online government services guidance</li>
-        </ul>
-      </div>
-
-      <div class="tile">
-        <h3>ICT Support & Systems</h3>
-        <ul>
-          <li>Device setup and troubleshooting (software/hardware/printers)</li>
-          <li>System maintenance, updates, antivirus hygiene</li>
-          <li>User support, training, and basic access control guidance</li>
-          <li>Data backup procedures and safe handling of sensitive data</li>
-        </ul>
-      </div>
-
-      <div class="tile">
-        <h3>Data Collection & Reporting</h3>
-        <ul>
-          <li>Form support and data collection workflows (KoboCollect, SurveyCTO)</li>
-          <li>Data exports, validation checks, and cleaning support</li>
-          <li>Basic-to-intermediate analysis using Excel and SPSS</li>
-          <li>Field reporting and documentation</li>
-        </ul>
-      </div>
-
-      <div class="tile">
-        <h3>Customs / Border Operations Support</h3>
-        <ul>
-          <li>ASYCUDA World documentation support (RITs/RIBs)</li>
-          <li>Transit documentation follow-up and acquittals support</li>
-          <li>Coordination with customs stakeholders and transporters</li>
-          <li>Support during inspections and compliance processes</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="grid">
-      <div class="tile">
-        <h3>ICT & Technical Support</h3>
-        <p>Setup, troubleshooting, maintenance, updates, antivirus, user support, reporting.</p>
-      </div>
-      <div class="tile">
-        <h3>Data & Research</h3>
-        <p>KoboCollect, SurveyCTO, Excel, SPSS, validation, reporting, field protocols.</p>
-      </div>
-      <div class="tile">
-        <h3>Customs & Logistics Operations</h3>
-        <p>ASYCUDA World, documentation flow, inspections support, stakeholder coordination.</p>
-      </div>
-      <div class="tile">
-        <h3>Communication & Training</h3>
-        <p>Digital skills support, teamwork, supervision, client service, professional communication.</p>
-      </div>
-      <div class="tile">
-        <h3>Productivity</h3>
-        <p>Microsoft Office (Excel, Word, PowerPoint, Access), typing, basic web design.</p>
-      </div>
-      <div class="tile">
-        <h3>Professional Mindset</h3>
-        <p>Integrity, confidentiality, initiative, adaptability, accountability.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section id="experience" class="section">
-    <h2>Experience</h2>
-
-    <div class="timeline">
-      <div class="item">
-        <h3>District Technical Support Officer — Electoral Commission of Zambia (ECZ)</h3>
-        <p class="meta">06 Oct 2025 – Present</p>
-        <ul>
-          <li>Set up, configure, and maintain voter registration equipment to ensure readiness before deployment.</li>
-          <li>Provide on-site and remote technical support to field teams; resolve software, hardware, and printer issues.</li>
-          <li>Perform secure data exports and backups to prevent data loss and protect confidentiality.</li>
-          <li>Monitor systems and field operations; compile technical reports and updates to district leadership and HQ.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <h3>Branch Supervisor — ConnexAfrica Zambia</h3>
-        <p class="meta">01 May 2025 – 30 Sep 2025</p>
-        <ul>
-          <li>Supervised daily border operations to ensure smooth documentation flow and compliance.</li>
-          <li>Coordinated with ZRA officers to monitor release of transit documents and clearances.</li>
-          <li>Oversaw team activities including acquittals, physical inspections, and stakeholder communication.</li>
-          <li>Ensured operational discipline, timely follow-ups, and accurate paperwork handling.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <h3>Clearing Agent Clerk — ConnexAfrica Zambia (Logistics & Clearing)</h3>
-        <p class="meta">10 Jul 2024 – 30 Apr 2025</p>
-        <ul>
-          <li>Registered RITs and RIBs in ASYCUDA World for customs processing.</li>
-          <li>Facilitated customs clearance and liaised with transporters and customs officers.</li>
-          <li>Supported inspections and reconciliation of transit documentation.</li>
-          <li>Maintained documentation accuracy and timely submission for processing.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <h3>Assessor / Data Collector — CAPOLSA-UNZA</h3>
-        <p class="meta">27 Apr 2024 – 30 Jun 2024</p>
-        <ul>
-          <li>Conducted midline research under the Catch Up / TARL-Africa project.</li>
-          <li>Interviewed teachers and pupils in selected schools; supported learning progress assessment.</li>
-          <li>Ensured accurate data capture, reporting, and adherence to field protocols.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <h3>International Trade Assistant — Sinoma International Engineering Company Ltd</h3>
-        <p class="meta">10 Nov 2023 – 10 Apr 2024</p>
-        <ul>
-          <li>Processed purchase orders and export documents; maintained customer records.</li>
-          <li>Managed pre-alert documentation and supported data visualization for sales.</li>
-          <li>Organized documentation backups and handled sensitive files responsibly.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <h3>Field Officer — Innovation for Poverty Action (IPA)</h3>
-        <p class="meta">25 Jun 2023 – 30 Aug 2023</p>
-        <ul>
-          <li>Collected and verified household-level data using digital tools.</li>
-          <li>Conducted interviews and FGDs; submitted accurate field reports.</li>
-          <li>Followed strict research protocols to ensure quality and integrity of data.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <h3>Enumerator — Innovation for Poverty Action (IPA)</h3>
-        <p class="meta">12 Aug 2022 – 20 Oct 2022</p>
-        <ul>
-          <li>Conducted household interviews, data validation, and tablet-based data capture.</li>
-          <li>Ensured completeness and accuracy before submission.</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <h3>Internet Café Manager — Snr Technologies, Ndola</h3>
-        <p class="meta">01 Nov 2021 – 30 Jun 2022</p>
-        <ul>
-          <li>Supported clients with online services, document processing, and ICT troubleshooting.</li>
-          <li>Managed day-to-day operations, customer support, and service quality.</li>
-        </ul>
-      </div>
-    </div>
-
-    
-  </section>
-
-  <!-- CERTIFICATIONS -->
-  <section id="certs" class="section">
-    <h2>Certifications</h2>
-
-    <div class="grid">
-      <div class="tile">
-        <h3>ICTAZ Practising Certificate (2025)</h3>
-        <p>Licensed ICT professional (ICTAZ Act No. 7 of 2018).</p>
-      </div>
-
-      <div class="tile">
-        <h3>Cisco Networking Academy (Smart Zambia Institute)</h3>
-        <p>Introduction to Cybersecurity (Jul 2025) • Introduction to Data Science (Jun 2025).</p>
-      </div>
-
-      <div class="tile">
-        <h3>ZRA Customs Appreciation</h3>
-        <p>Customs appreciation certificate (Jun 2025).</p>
-      </div>
-
-      <div class="tile">
-        <h3>Transport & Logistics</h3>
-        <p>ZCILT Certificate in Transport & Logistics (2025).</p>
-      </div>
-
-      <div class="tile">
-        <h3>Advanced Data Analysis & Interpretation</h3>
-        <p>Practical analysis including Excel/SPSS (descriptive stats, testing, diagnostics).</p>
-      </div>
-
-      <div class="tile">
-        <h3>Business Analytics with Excel</h3>
-        <p>Beginner course certificate (Feb 2024).</p>
-      </div>
-    </div>
-
-    
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-
-    <div class="contact">
-      <div>
-        <p class="muted">For ICT support, e-gov services, data collection work, or operational coordination, reach out:</p>
-
-        <p><b>Email:</b> <a class="link" href="mailto:jacksonmulenga100@gmail.com">jacksonmulenga100@gmail.com</a></p>
-        <p><b>Phone:</b> <a class="link" href="tel:+260779745556">+260 779 745 556</a> / <a class="link" href="tel:+260962777804">+260 962 777 804</a></p>
-
-        <div class="mini-card">
-          <h3>Online</h3>
-          <p>
-            <a class="link" href="https://www.linkedin.com/in/jackson-mulenga-936442227" target="_blank" rel="noreferrer">LinkedIn</a>
-            ·
-            <a class="link" href="https://github.com/jack1000mu" target="_blank" rel="noreferrer">GitHub</a>
-            ·
-            <a class="link" href="https://www.facebook.com/share/1aqoSSkfK9/" target="_blank" rel="noreferrer">Facebook</a>
-          </p>
+        <div class="nav-cta">
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/jackson-mulenga-936442227" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-primary" href="https://github.com/jack1000mu" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
+    </nav>
+  </header>
 
-      <!-- REAL WORKING FORMSPREE FORM -->
-      <form class="form" action="https://formspree.io/f/mojjvwro" method="POST">
-        <label>
-          Your name
-          <input type="text" name="name" required placeholder="e.g., Mary Banda" />
-        </label>
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="pill">ICT Support • Data • E-Gov Services • Customs Operations • Smart Zambia Digital Ambassador</p>
 
-        <label>
-          Email
-          <input type="email" name="email" required placeholder="e.g., mary@email.com" />
-        </label>
+          <h1 class="hero-title">
+            Hi, I’m <span class="accent">Jackson Mulenga</span> — I build reliable digital support systems and field-ready operations.
+          </h1>
 
-        <label>
-          Message
-          <textarea name="message" required rows="5" placeholder="Tell me about your project or opportunity..."></textarea>
-        </label>
+          <p class="hero-subtitle">
+            District Technical Support Officer (ECZ) with experience across public service ICT support,
+            research/data tools (KoboCollect/SurveyCTO), and customs/border operations (ASYCUDA).
+            I also support digital skills adoption and safer online practices as a Smart Zambia Digital Ambassador.
+          </p>
 
-        <input type="hidden" name="_subject" value="New message from Jackson’s portfolio website" />
-        <button class="btn primary" type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Contact Me</a>
+            <a class="btn btn-ghost" href="#projects">View Projects</a>
+          </div>
 
-  <footer class="footer">
-    <p>© <span id="year"></span> Jackson Mulenga.</p>
-  </footer>
-</main>
+          <div class="hero-badges">
+            <span class="badge">Excel / SPSS</span>
+            <span class="badge">KoboCollect / SurveyCTO</span>
+            <span class="badge">ASYCUDA World</span>
+            <span class="badge">Tech Support & Training</span>
+          </div>
+        </div>
 
-<script src="script.js"></script>
+        <aside class="hero-card">
+          <h3>Quick Snapshot</h3>
+          <ul class="checklist">
+            <li><strong>Current:</strong> District Technical Support Officer — ECZ</li>
+            <li><strong>Also:</strong> Smart Zambia Digital Ambassador (Copperbelt)</li>
+            <li><strong>Focus:</strong> ICT support, field readiness, data integrity</li>
+            <li><strong>Tools:</strong> Excel, SPSS, KoboCollect, SurveyCTO</li>
+            <li><strong>Operations:</strong> ASYCUDA, border documentation</li>
+          </ul>
+          <a class="link-arrow" href="#experience">View full experience →</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted">Professional summary and what I bring to teams and clients.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>Profile</h3>
+            <p>
+              I’m an ICT and digital support professional with a Bachelor’s Degree in Information and Communication Technology with Education
+              and practical experience supporting technology and operations in Zambia.
+            </p>
+            <p>
+              At ECZ, I support operational readiness through equipment setup, troubleshooting, secure backups, and technical reporting.
+              I work well under pressure and in time-sensitive environments where accuracy and reliability matter.
+            </p>
+            <p>
+              I also bring experience from customs/border operations (ConnexAfrica, ASYCUDA workflows) and field research delivery (IPA, CAPOLSA-UNZA),
+              where data quality and protocol compliance are critical.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>What I’m known for</h3>
+            <ul class="bullets">
+              <li>Fast, clear troubleshooting and user support</li>
+              <li>Strong documentation, reporting, and attention to detail</li>
+              <li>Field-ready operations and coordination</li>
+              <li>Training support and practical mentorship</li>
+              <li>Integrity, confidentiality, and accountability</li>
+            </ul>
+
+            <div class="mini-grid">
+              <div class="mini-stat">
+                <div class="stat-num">3+ yrs</div>
+                <div class="stat-label">Experience</div>
+              </div>
+              <div class="mini-stat">
+                <div class="stat-num">ICT + Ops</div>
+                <div class="stat-label">Hybrid Skillset</div>
+              </div>
+              <div class="mini-stat">
+                <div class="stat-num">Public Service</div>
+                <div class="stat-label">ECZ Support</div>
+              </div>
+              <div class="mini-stat">
+                <div class="stat-num">Smart Zambia</div>
+                <div class="stat-label">Digital Ambassador</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p class="muted">Support for individuals, SMEs, teams, and field operations.</p>
+        </div>
+
+        <div class="grid">
+          <div class="tile">
+            <h3>E-Gov & Online Services</h3>
+            <ul class="bullets">
+              <li>PACRA business name / registration support</li>
+              <li>ZRA TPIN registration and returns support</li>
+              <li>NAPSA & NHIMA account opening / returns support</li>
+              <li>ZPPA, NCC and other e-services guidance</li>
+            </ul>
+          </div>
+
+          <div class="tile">
+            <h3>ICT Support & Systems</h3>
+            <ul class="bullets">
+              <li>Device setup, troubleshooting, printers</li>
+              <li>Updates, antivirus hygiene, maintenance</li>
+              <li>User onboarding and basic access control guidance</li>
+              <li>Backups and safe handling of sensitive data</li>
+            </ul>
+          </div>
+
+          <div class="tile">
+            <h3>Data Collection & Reporting</h3>
+            <ul class="bullets">
+              <li>KoboCollect / SurveyCTO form support</li>
+              <li>Data exports, cleaning checks, validation</li>
+              <li>Basic-to-intermediate analysis (Excel, SPSS)</li>
+              <li>Field reporting and documentation</li>
+            </ul>
+          </div>
+
+          <div class="tile">
+            <h3>Customs / Border Operations</h3>
+            <ul class="bullets">
+              <li>ASYCUDA World documentation support</li>
+              <li>Transit docs follow-up and acquittals support</li>
+              <li>Coordination with stakeholders & transporters</li>
+              <li>Support during inspections & compliance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Core competencies and tools I use to deliver results.</p>
+        </div>
+
+        <div class="grid">
+          <div class="tile">
+            <h3>ICT & Technical Support</h3>
+            <p class="muted">Setup, troubleshooting, maintenance, security hygiene, reporting.</p>
+            <div class="tags">
+              <span class="tag">Windows</span>
+              <span class="tag">Printers</span>
+              <span class="tag">Backups</span>
+              <span class="tag">User Support</span>
+            </div>
+          </div>
+
+          <div class="tile">
+            <h3>Data & Research</h3>
+            <p class="muted">KoboCollect, SurveyCTO, Excel, SPSS, QA, field protocols.</p>
+            <div class="tags">
+              <span class="tag">Excel</span>
+              <span class="tag">SPSS</span>
+              <span class="tag">Kobo</span>
+              <span class="tag">SurveyCTO</span>
+            </div>
+          </div>
+
+          <div class="tile">
+            <h3>Customs Operations</h3>
+            <p class="muted">ASYCUDA, documentation flow, inspections support, coordination.</p>
+            <div class="tags">
+              <span class="tag">ASYCUDA</span>
+              <span class="tag">Transit Docs</span>
+              <span class="tag">Compliance</span>
+            </div>
+          </div>
+
+          <div class="tile">
+            <h3>Training & Communication</h3>
+            <p class="muted">Facilitation support, mentorship, stakeholder communication.</p>
+            <div class="tags">
+              <span class="tag">Training Support</span>
+              <span class="tag">Reporting</span>
+              <span class="tag">Teamwork</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Training -->
+    <section id="training" class="section soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Training & Digital Ambassador Work</h2>
+          <p class="muted">Clear evidence of training delivery and capacity building.</p>
+        </div>
+
+        <div class="grid">
+          <div class="tile">
+            <h3>Smart Zambia Institute — TOT Facilitator Support</h3>
+            <p class="meta">Ndola, Zambia • 2025</p>
+            <ul class="bullets">
+              <li>Supported delivery of digital skills and online safety training workshops.</li>
+              <li>Provided hands-on guidance and troubleshooting during sessions.</li>
+              <li>Helped participants apply digital tools for work, business, and online services.</li>
+            </ul>
+          </div>
+
+          <div class="tile">
+            <h3>Smart Zambia — Copperbelt Digital Ambassador</h3>
+            <p class="meta">Copperbelt Province • 2025 – Present</p>
+            <ul class="bullets">
+              <li>Promotes digital adoption and safer online practices.</li>
+              <li>Guides communities on e-government services usage and digital tools.</li>
+              <li>Supports practical digital awareness and mentorship.</li>
+            </ul>
+          </div>
+
+          <div class="tile">
+            <h3>Field Tools Support — KoboCollect / SurveyCTO</h3>
+            <p class="meta">IPA • CAPOLSA-UNZA • Field Projects</p>
+            <ul class="bullets">
+              <li>Supported enumerator workflows and data quality checks.</li>
+              <li>Helped teams follow protocols and submit complete, accurate data.</li>
+              <li>Maintained integrity through validation and reporting.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p class="muted">Roles and impact across ICT support, operations, and field delivery.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <h3>District Technical Support Officer — Electoral Commission of Zambia (ECZ)</h3>
+              <p class="meta">06 Oct 2025 – Present</p>
+              <ul class="bullets">
+                <li>Configure and maintain field equipment and ensure readiness before deployment.</li>
+                <li>Provide technical support to field teams (software/hardware/printers).</li>
+                <li>Perform secure exports and backups; support confidentiality and integrity.</li>
+                <li>Compile technical reports and updates to district leadership and HQ.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <h3>Branch Supervisor — ConnexAfrica Zambia</h3>
+              <p class="meta">01 May 2025 – 30 Sep 2025</p>
+              <ul class="bullets">
+                <li>Supervised border operations and ensured documentation flow and compliance.</li>
+                <li>Coordinated with ZRA officers for transit document releases and follow-ups.</li>
+                <li>Oversaw acquittals, inspections support, and stakeholder coordination.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <h3>Clearing Agent Clerk — ConnexAfrica Zambia</h3>
+              <p class="meta">10 Jul 2024 – 30 Apr 2025</p>
+              <ul class="bullets">
+                <li>Registered RITs/RIBs in ASYCUDA World and supported customs processing.</li>
+                <li>Supported inspections and reconciliation of transit documentation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <h3>Assessor / Data Collector — CAPOLSA-UNZA</h3>
+              <p class="meta">27 Apr 2024 – 30 Jun 2024</p>
+              <ul class="bullets">
+                <li>Conducted school-based assessments and interviews under Catch Up / TaRL-related work.</li>
+                <li>Ensured accurate data capture and adherence to field protocols.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item">
+            <div class="t-dot"></div>
+            <div class="t-card">
+              <h3>Field Officer / Enumerator — Innovation for Poverty Action (IPA)</h3>
+              <p class="meta">2022 – 2023</p>
+              <ul class="bullets">
+                <li>Collected verified household data using digital tools and strict protocols.</li>
+                <li>Submitted daily reports and ensured data completeness and integrity.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">A few examples — we can expand these as you build more.</p>
+        </div>
+
+        <div class="grid">
+          <div class="tile">
+            <h3>Portfolio Website</h3>
+            <p class="muted">A responsive personal portfolio for showcasing services, experience, and contact.</p>
+            <div class="actions">
+              <a class="btn btn-ghost" href="https://github.com/jack1000mu" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn btn-primary" href="#contact">Request Similar</a>
+            </div>
+          </div>
+
+          <div class="tile">
+            <h3>KoboCollect Training Support</h3>
+            <p class="muted">Guidance on form logic, exports, and field-ready deployment processes.</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="#contact">Work With Me</a>
+            </div>
+          </div>
+
+          <div class="tile">
+            <h3>School Portal (In Progress)</h3>
+            <p class="muted">Django-based portal concept for role-based access and school workflows.</p>
+            <div class="actions">
+              <a class="btn btn-ghost" href="#contact">Discuss Build</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certs -->
+    <section id="certs" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Certifications</h2>
+          <p class="muted">Professional certifications and training records.</p>
+        </div>
+
+        <div class="grid">
+          <div class="tile">
+            <h3>ICTAZ Practising Certificate (2025)</h3>
+            <p class="muted">Licensed ICT professional (ICTAZ Act No. 7 of 2018).</p>
+          </div>
+
+          <div class="tile">
+            <h3>Cisco Networking Academy (Smart Zambia Institute)</h3>
+            <p class="muted">Introduction to Cybersecurity (Jul 2025) • Introduction to Data Science (Jun 2025).</p>
+          </div>
+
+          <div class="tile">
+            <h3>ZRA Customs Appreciation</h3>
+            <p class="muted">Customs appreciation certificate (Jun 2025).</p>
+          </div>
+
+          <div class="tile">
+            <h3>ZCILT — Transport & Logistics</h3>
+            <p class="muted">Certificate in Transport & Logistics (2025).</p>
+          </div>
+
+          <div class="tile">
+            <h3>Advanced Data Analysis & Interpretation</h3>
+            <p class="muted">Excel/SPSS analysis (descriptive stats, checks, and reporting).</p>
+          </div>
+
+          <div class="tile">
+            <h3>Business Analytics with Excel</h3>
+            <p class="muted">Beginner course certificate (Feb 2024).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section soft">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Let’s work together — ICT support, training, data systems, or online services.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card">
+            <h3>Reach me</h3>
+            <p><strong>Email:</strong> <a class="link" href="mailto:jacksonmulenga100@gmail.com">jacksonmulenga100@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a class="link" href="tel:+260779745556">+260 779 745 556</a> / <a class="link" href="tel:+260962777804">+260 962 777 804</a></p>
+
+            <div class="divider"></div>
+
+            <p class="muted">Online profiles</p>
+            <p>
+              <a class="link" href="https://www.linkedin.com/in/jackson-mulenga-936442227" target="_blank" rel="noreferrer">LinkedIn</a> •
+              <a class="link" href="https://github.com/jack1000mu" target="_blank" rel="noreferrer">GitHub</a> •
+              <a class="link" href="https://www.facebook.com/share/1aqoSSkfK9/" target="_blank" rel="noreferrer">Facebook</a>
+            </p>
+          </div>
+
+          <!-- Formspree contact form -->
+          <form class="card form" action="https://formspree.io/f/mojjvwro" method="POST">
+            <h3>Send a message</h3>
+
+            <label>
+              Your name
+              <input type="text" name="name" required placeholder="e.g., Mary Banda" />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" required placeholder="e.g., mary@email.com" />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" required rows="6" placeholder="Tell me about your project or opportunity..."></textarea>
+            </label>
+
+            <input type="hidden" name="_subject" value="New message from Jackson’s portfolio website" />
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="muted small">This form uses Formspree. Replace the endpoint with yours if needed.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Jackson Mulenga.</p>
+        <a class="link" href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
