@@ -482,3 +482,40 @@ input:focus, textarea:focus{
     white-space: normal;
   }
 }
+/* ===== FORCE CLEAN CARD STYLE (Education & Experience) ===== */
+.timeline{
+  display: grid;
+  gap: 16px;
+}
+
+.item{
+  background: #121b2f;              /* solid background */
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: none;                 /* remove blur/shadow */
+  backdrop-filter: none;            /* remove glass blur */
+}
+
+/* Headings & text alignment */
+.item h3{
+  margin: 0 0 6px 0;
+}
+
+.item .meta{
+  margin: 0 0 10px 0;
+  color: var(--muted);
+}
+
+/* Bullet alignment */
+.item ul{
+  margin: 0;
+  padding-left: 18px;
+}
+
+.item li{
+  margin: 8px 0;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
