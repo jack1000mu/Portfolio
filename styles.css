@@ -519,3 +519,36 @@ input:focus, textarea:focus{
   color: var(--muted);
 }
 
+/* Keep all sections centered + consistent spacing */
+.section{
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 72px 20px;
+}
+
+/* Nice subtitle spacing (optional) */
+.section-sub{
+  margin-top: -6px;
+  margin-bottom: 18px;
+  color: var(--muted);
+}
+
+/* Make sure cards don't stretch weirdly */
+.timeline{
+  display: grid;
+  gap: 14px;
+}
+
+.item{
+  width: 100%;
+}
+
+/* Improve spacing between sections visually */
+.section + .section{
+  padding-top: 40px;
+}
+/* When you click nav links, stop under the sticky header */
+section{
+  scroll-margin-top: 90px;
+}
+
